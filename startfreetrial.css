@@ -1,0 +1,15 @@
+body{
+    background: url(WhatsApp\ Image.jpg);
+}
+#t1{
+    margin-left: 80px;
+    color: #032d60;
+}
+#top{
+    float: right;
+}
+
+.container{
+    float:right;
+    top:0;
+}

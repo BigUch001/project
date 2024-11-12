@@ -1,0 +1,133 @@
+
+
+#nav1{
+    list-style: none;
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+}
+#a1{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    padding: 10px;
+    list-style: none;
+    font-size: 24px;
+}
+#a2{
+display: flex;
+justify-content: space-between;
+    margin: 10px;
+    padding: 10px;
+    list-style: none;
+    font-size: 24px;
+}
+#nav1 li{
+margin-right: 50px;
+font-size: 20px;
+line-height: 35px;
+float: left;
+}
+a{
+color: #0d9dda;
+    text-decoration: none;
+}
+#free1{
+    border-radius: 7px;
+    width: 120px;
+    height: 40px;
+    background-color: #2e844a;
+    border: #2e844a solid 2px;
+}
+#free1:hover{
+    background-color: #1c3326;
+    border: #1c3326 solid 4px;
+}
+#free1:active{
+    background-color: #1c3326;
+    border: #1c3326 solid 4px;
+}
+#free1:focus{
+    background-color: #1c3326;
+    border: #3ba755 solid 4px;
+}
+#s1 #s11{
+    color: #032d60;
+}
+#s1 #s12{
+    color: #0d9dda;
+}
+#s1{
+    font-size: 64px;
+    letter-spacing: -0.012em;
+    line-height: 64px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#start1{
+    width: 170px;
+    height: 50px;
+    color: white;
+    background-color: #0d9dda;
+    border-radius: 7px;
+    font-size: 16px;
+    border: #0d9dda;
+
+}
+#start2{
+    width: 170px;
+    height: 50px;
+    color: #0d9dda;
+    background-color: white;
+    border-radius: 7px;
+    font-size: 16px;
+    border:white 4px;
+    border: solid;
+}
+#g1{
+    color: #032d60;
+    word-spacing: 1px;
+
+}
+#start1 a{
+    color: white;
+}
+.container{
+    background-color: #140075;
+    display: flex;
+    justify-content: center;
+
+}
+
+.container-content{
+    color: white;
+}
+
+.image{
+    height: 508px;
+    left: 0;
+    position: absolute;
+    top: 100px;
+    width: 100%;
+    z-index: -1;
+    object-fit: cover;
+    object-position: bottom;
+    
+}
+
+img{
+    max-width: 100%;
+    vertical-align: middle;
+    border: 0;
+}
+
+/* .side_image{
+    height: 100%;
+    width: 100%;
+    margin-right: 20px;
+    object-fit: cover;
+    margin-bottom: 70px;
+}
+
+.side_image img{
+    max-height: 1000px;
+} */
